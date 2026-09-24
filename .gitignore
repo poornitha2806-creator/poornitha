@@ -6,3 +6,12 @@ coverage/
 *.log
 .env*
 !.env.example
+.vercel/
+
+# Python cache (for local backend development)
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.pytest_cache/
+
