@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    letter-spacing: -0.01em;
+  }
+
+  code, pre, .font-mono {
+    font-family: var(--font-mono);
+  }
+}
+
+/* Medical Viewport Filters */
+.medical-filter-bone {
+  filter: contrast(135%) brightness(105%) grayscale(100%);
+}
+
+.medical-filter-high-contrast {
+  filter: contrast(175%) brightness(95%);
+}
+
+.medical-filter-inverted {
+  filter: invert(100%) contrast(120%);
+}
+
+.medical-filter-hot-iron {
+  filter: contrast(140%) sepia(85%) hue-rotate(-30deg) saturate(180%);
+}
+
+.medical-filter-jet {
+  filter: contrast(130%) hue-rotate(180deg) saturate(160%);
+}
+

@@ -1,0 +1,8 @@
+{
+  "name": "NeuroScan AI - Brain Tumor Classification",
+  "description": "Educational and research medical imaging platform for brain tumor classification using MRI scans and deep learning models (CNN, EfficientNet-B0, VGG16, ResNet50, InceptionV3).",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
